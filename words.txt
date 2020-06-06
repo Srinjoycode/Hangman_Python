@@ -229,10 +229,4 @@ Wheelchair
 Window
 Woman
 Worm
-X-rayappended text
-Hello
-World
-India
-Rust
-word
-risk
+X-ray

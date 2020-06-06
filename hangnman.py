@@ -25,7 +25,7 @@ def guess_status(lst_guess, question):
 
 
 print('|=======================|\n| Welcome to Hangman!!! |\n|=======================|')
-print("\n-----You get 10 chances to guess the mystery word-----\n")
+print("\n-----You get 7 chances to guess the mystery word-----\n")
 
 print('To add your custom words run addWord.py \n')
 name = input("Enter User Name: ")
@@ -43,9 +43,9 @@ lst_guess = list()
 print("the Length of the word is:")
 status = guess_status(lst_guess, question)
 print(status)
-print(question)
+
 print('\n')
-turns = 10
+turns = 7
 while turns > 0:
     flag = True
     prev_status = guess_status(lst_guess, question)
